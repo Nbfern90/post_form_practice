@@ -38,8 +38,6 @@ def create_success():
 # session.pop('email')
 
 # this clears EVERYTHING from the session
-
-
 @app.route('/logout')
 def logout():
     session.clear()
